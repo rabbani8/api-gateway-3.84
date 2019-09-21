@@ -291,11 +291,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<url>https://C://repositories/releases</url>
 		</snapshotRepository>
 		<repository>
 			<id>ossrh</id>
-			<url>file:///C://maven2/</url>
+			<url>file:///C://repositories/snapshots</url>
 		</repository>
 	</distributionManagement> 
 	<build>
