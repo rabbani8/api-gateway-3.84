@@ -230,6 +230,7 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
+			<!-- 
 			<distributionManagement>
 				<snapshotRepository>
 					<id>ossrh</id>
@@ -240,6 +241,7 @@
 					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 				</repository>
 			</distributionManagement>
+			-->
 			<build>
 				<plugins>
 					<plugin>
@@ -288,7 +290,7 @@
 			<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
 		</pluginRepository>
 	</pluginRepositories>
-
+	<!-- 
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
@@ -299,7 +301,7 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement> 
-
+	-->
 	<build>
 		<finalName>${project.artifactId}-${project.version}-b${build.number}</finalName>
 		<plugins>
