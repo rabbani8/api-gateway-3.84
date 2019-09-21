@@ -16,6 +16,7 @@
 		<mule.tools.version>1.7</mule.tools.version>
 		<licensePath>LICENSE.md</licensePath>
 		<mule.tools.version>1.7</mule.tools.version>
+		<mule.maven.version>3.6.1</mule.maven.version>
 		<!-- <mule.home>${MULE_HOME}</mule.home> -->
 		<anypoint.username>${env.ANYPOINT_USERNAME}</anypoint.username>
 		<anypoint.password>${env.ANYPOINT_PASSWORD}</anypoint.password>
