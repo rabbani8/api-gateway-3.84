@@ -301,7 +301,7 @@
 		</repository>
 	</distributionManagement> 
 	<build>
-		<finalName>${project.artifactId}-${project.version}-b${build.number}</finalName>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
