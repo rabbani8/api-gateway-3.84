@@ -32,12 +32,6 @@
 
 	<!-- Mule Dependencies -->
 	<dependencies>
-		<!-- mule-maven-plugin  -->
-		<plugin>
-			<groupId>org.mule.tools.maven</groupId>
-			<artifactId>mule-maven-plugin</artifactId>
-			<version>${mule.maven.version}</version>
-		</plugin>
 		<!-- Xml configuration -->
 		<dependency>
 			<groupId>com.mulesoft.muleesb</groupId>
