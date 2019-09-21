@@ -291,11 +291,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
-			<url>https://C://repositories/releases</url>
+			<url>file:///C://repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>ossrh</id>
-			<url>file:///C://repositories/snapshots</url>
+			<url>file:///C://repositories/releases</url>
 		</repository>
 	</distributionManagement> 
 	<build>
