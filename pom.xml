@@ -12,8 +12,10 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<mule.version>3.8.4</mule.version>
-		<mule.tools.version>1.7</mule.tools.version>
+		<!--<mule.version>3.8.4</mule.version>
+		<mule.tools.version>1.7</mule.tools.version>  -->
+		<mule.version>3.9.2</mule.version>
+		<mule.maven.version>2.3.3</mule.maven.version>
 		<licensePath>LICENSE.md</licensePath>
 		<mule.tools.version>1.7</mule.tools.version>
 		<mule.maven.version>3.6.1</mule.maven.version>
