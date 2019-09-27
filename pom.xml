@@ -8,6 +8,13 @@
 	<version>1.0.0</version>
 	<packaging>mule-domain</packaging>
 	<name>Domain api-gateway Project</name>
+	
+	 <parent>
+		<groupId>com.javastreets</groupId>
+		<artifactId>mule-maven-parent-pom</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../mule-maven-parent-pom/pom.xml</relativePath>
+	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
