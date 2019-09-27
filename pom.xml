@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sprint.m04</groupId>
-    <artifactId>api-gateway</artifactId>
-    <packaging>mule-domain</packaging>
-    <version>0.1.0</version>
-    <name>Domain api-gateway Project</name>
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.imdb.m04</groupId>
+	<artifactId>api-gateway</artifactId>
+	<version>1.0.0</version>
+	<packaging>mule-domain</packaging>
+	<name>Domain api-gateway Project</name>
+	
+	 <parent>
+		<groupId>com.javastreets</groupId>
+		<artifactId>mule-maven-parent-pom</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../mule-maven-parent-pom/pom.xml</relativePath>
+	</parent>
 
     <build>
         <plugins>
