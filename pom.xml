@@ -12,7 +12,7 @@
             <plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-domain-maven-plugin</artifactId>
-				<version>${mule.tools.version}</version>
+				<version>1.7</version>
 				<extensions>true</extensions>
 				<configuration>
 					<!-- if MULE_HOME variable is configured then the domain will be copy 
@@ -23,14 +23,11 @@
         </plugins>
     </build>
     <dependencies>
-
-        <dependency>
-			<groupId>com.sprint.m04.lib.xwocache</groupId>
-			<artifactId>lib-m04-xwocache</artifactId>
-			<version>0.3</version>
-			<scope>provided</scope>
-		</dependency>
-
+       	 <dependency>
+            <groupId>com.oracle.jdbc</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.1</version>
+        </dependency>
     </dependencies>
  	<!-- Repository in order to get the Parent Pom, all other repositories are 
 		defined in the parent -->
